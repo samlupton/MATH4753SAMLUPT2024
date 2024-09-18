@@ -3,3 +3,5 @@
 export(mysample)
 export(mysquare)
 export(quadratic)
+importFrom(grDevices,rainbow)
+importFrom(graphics,barplot)

@@ -4,6 +4,9 @@
 #' @param iter Integer. The number of iterations to perform.
 #' @param time Numeric. The amount of time (in seconds) to pause between iterations.
 #'
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot
+#'
 #' @return This function does not return a value. It produces a series of bar plots displaying the distribution of the sampled data.
 #' @export
 #'
