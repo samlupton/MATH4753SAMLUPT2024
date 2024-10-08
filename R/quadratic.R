@@ -9,8 +9,7 @@
 #' @export
 #'
 #' @examples
-#'
-#' quadratic(x = 1:10, coefficients = c(2, 3, -1))
+#' quadratic(x=1:10, coefficients = c(2, 3, -1))
 #'
 quadratic = function(x, coefficients) {
   coefficients[1] + coefficients[2] * x + coefficients[3] * x ^ 2

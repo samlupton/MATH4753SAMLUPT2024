@@ -20,7 +20,6 @@ A numeric vector or scalar representing the computed values of the quadratic fun
 Quadratic Function
 }
 \examples{
-
-quadratic(x = 1:10, coefficients = c(2, 3, -1))
+quadratic(x=1:10, coefficients = c(2, 3, -1))
 
 }
